@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<netserver>
+    <common type="group">
+        <servers type="array">
+            <size>6</size>
+            <a1>
+                <key>0</key>
+                <server type="group">
+                    <name>APIS1</name>
+                    <address>101.251.112.206</address>
+                    <protocol>0</protocol>
+                    <port>9901</port>
+                    <sources type="array">
+                        <size>0</size>
+                    </sources>
+                </server>
+                <apn type="group">
+                    <name>CMNET</name>
+                    <number>*99***1#</number>
+                </apn>
+            </a1>
+            <a2>
+                <key>1</key>
+                <server type="group">
+                    <name>APIS2</name>
+                    <address>210.14.66.58</address>
+                    <protocol>0</protocol>
+                    <port>9901</port>
+                    <sources type="array">
+                        <size>0</size>
+                    </sources>
+                </server>
+                <apn type="group">
+                    <name>CMNET</name>
+                    <number>*99***1#</number>
+                </apn>
+            </a2>
+            <a3>
+                <key>2</key>
+                <server type="group">
+                    <name>APIS3</name>
+                    <address>211.144.120.97</address>
+                    <protocol>0</protocol>
+                    <port>9902</port>
+                    <sources type="array">
+                        <size>0</size>
+                    </sources>
+                </server>
+                <apn type="group">
+                    <name>CMNET</name>
+                    <number>*99***1#</number>
+                </apn>
+            </a3>
+            <a4>
+                <key>3</key>
+                <server type="group">
+                    <name>APIS4</name>
+                    <address>101.251.112.205</address>
+                    <protocol>0</protocol>
+                    <port>9902</port>
+                    <sources type="array">
+                        <size>0</size>
+                    </sources>
+                </server>
+                <apn type="group">
+                    <name>CMNET</name>
+                    <number>*99***1#</number>
+                </apn>
+            </a4>
+            <a5>
+                <key>4</key>
+                <server type="group">
+                    <name>CORS1</name>
+                    <address>211.144.118.5</address>
+                    <protocol>1</protocol>
+                    <port>2101</port>
+                    <sources type="array">
+                        <size>19</size>
+                        <a1>
+                            <source>BJ54</source>
+                        </a1>
+                        <a2>
+                            <source>CMR</source>
+                        </a2>
+                        <a3>
+                            <source>CMRx</source>
+                        </a3>
+                        <a4>
+                            <source>HY</source>
+                        </a4>
+                        <a5>
+                            <source>MGRTCM3</source>
+                        </a5>
+                        <a6>
+                            <source>ML_RTCM3</source>
+                        </a6>
+                        <a7>
+                            <source>ML_RTCM32</source>
+                        </a7>
+                        <a8>
+                            <source>ML_SCMR</source>
+                        </a8>
+                        <a9>
+                            <source>RTCM23</source>
+                        </a9>
+                        <a10>
+                            <source>RTCM3</source>
+                        </a10>
+                        <a11>
+                            <source>RTCM31</source>
+                        </a11>
+                        <a12>
+                            <source>RTCM3MSM</source>
+                        </a12>
+                        <a13>
+                            <source>RTD</source>
+                        </a13>
+                        <a14>
+                            <source>S3</source>
+                        </a14>
+                        <a15>
+                            <source>S3MSM</source>
+                        </a15>
+                        <a16>
+                            <source>SY_RTCM3</source>
+                        </a16>
+                        <a17>
+                            <source>SY_RTCM32</source>
+                        </a17>
+                        <a18>
+                            <source>SY_SCMR</source>
+                        </a18>
+                        <a19>
+                            <source>BJ54SEVEN</source>
+                        </a19>
+                    </sources>
+                </server>
+                <apn type="group">
+                    <name>CMNET</name>
+                    <number>*99***1#</number>
+                </apn>
+            </a5>
+            <a6>
+                <key>5</key>
+                <server type="group">
+                    <name>CORS2</name>
+                    <address>211.144.118.5</address>
+                    <protocol>1</protocol>
+                    <port>2102</port>
+                    <sources type="array">
+                        <size>19</size>
+                        <a1>
+                            <source>BJ54</source>
+                        </a1>
+                        <a2>
+                            <source>CMR</source>
+                        </a2>
+                        <a3>
+                            <source>CMRx</source>
+                        </a3>
+                        <a4>
+                            <source>HY</source>
+                        </a4>
+                        <a5>
+                            <source>MGRTCM3</source>
+                        </a5>
+                        <a6>
+                            <source>ML_RTCM3</source>
+                        </a6>
+                        <a7>
+                            <source>ML_RTCM32</source>
+                        </a7>
+                        <a8>
+                            <source>ML_SCMR</source>
+                        </a8>
+                        <a9>
+                            <source>RTCM23</source>
+                        </a9>
+                        <a10>
+                            <source>RTCM3</source>
+                        </a10>
+                        <a11>
+                            <source>RTCM31</source>
+                        </a11>
+                        <a12>
+                            <source>RTCM3MSM</source>
+                        </a12>
+                        <a13>
+                            <source>RTD</source>
+                        </a13>
+                        <a14>
+                            <source>S3</source>
+                        </a14>
+                        <a15>
+                            <source>S3MSM</source>
+                        </a15>
+                        <a16>
+                            <source>SY_RTCM3</source>
+                        </a16>
+                        <a17>
+                            <source>SY_RTCM32</source>
+                        </a17>
+                        <a18>
+                            <source>SY_SCMR</source>
+                        </a18>
+                        <a19>
+                            <source>BJ54SEVEN</source>
+                        </a19>
+                    </sources>
+                </server>
+                <apn type="group">
+                    <name>CMNET</name>
+                    <number>*99***1#</number>
+                </apn>
+            </a6>
+        </servers>
+    </common>
+    <current type="group">
+        <key>-1</key>
+        <server type="group">
+            <name />
+            <address />
+            <protocol>0</protocol>
+            <port>0</port>
+            <user />
+            <password />
+            <cursrc />
+            <sources type="array">
+                <size>0</size>
+            </sources>
+        </server>
+        <apn type="group">
+            <name />
+            <number />
+            <user />
+            <password />
+        </apn>
+    </current>
+</netserver>

@@ -1,0 +1,5 @@
+﻿NTRIP Caster=http://positionz-rt.linz.govt.nz
+NTRIP Caster Port=2101
+NTRIP Username=matauranz
+NTRIP Password=steve1956
+NTRIP MountPoint=Download Source Table

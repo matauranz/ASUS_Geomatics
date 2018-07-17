@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<connectbauds>
+    <bauds type="array">
+        <size>5</size>
+        <a1>
+            <baud>9600</baud>
+        </a1>
+        <a2>
+            <baud>19200</baud>
+        </a2>
+        <a3>
+            <baud>38400</baud>
+        </a3>
+        <a4>
+            <baud>57600</baud>
+        </a4>
+        <a5>
+            <baud>115200</baud>
+        </a5>
+    </bauds>
+    <ports type="array">
+        <size>9</size>
+        <a1>
+            <port>1</port>
+        </a1>
+        <a2>
+            <port>2</port>
+        </a2>
+        <a3>
+            <port>3</port>
+        </a3>
+        <a4>
+            <port>4</port>
+        </a4>
+        <a5>
+            <port>5</port>
+        </a5>
+        <a6>
+            <port>6</port>
+        </a6>
+        <a7>
+            <port>7</port>
+        </a7>
+        <a8>
+            <port>8</port>
+        </a8>
+        <a9>
+            <port>9</port>
+        </a9>
+    </ports>
+</connectbauds>

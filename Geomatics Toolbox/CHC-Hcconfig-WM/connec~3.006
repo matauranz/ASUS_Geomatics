@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<connectmethods>
+    <devices type="array">
+        <size>6</size>
+        <a1>
+            <device>Smart GNSS</device>
+            <data>1</data>
+            <supported>1</supported>
+            <methods type="array">
+                <size>4</size>
+                <a1>
+                    <name>Port</name>
+                    <method>0</method>
+                </a1>
+                <a2>
+                    <name>CHC BT</name>
+                    <method>1</method>
+                </a2>
+                <a3>
+                    <name>Sys. BT</name>
+                    <method>101</method>
+                </a3>
+                <a4>
+                    <name>WIFI</name>
+                    <method>2</method>
+                </a4>
+            </methods>
+        </a1>
+        <a2>
+            <device>X20 Series</device>
+            <data>2</data>
+            <supported>1</supported>
+            <methods type="array">
+                <size>3</size>
+                <a1>
+                    <name>Port</name>
+                    <method>0</method>
+                </a1>
+                <a2>
+                    <name>CHC BT</name>
+                    <method>1</method>
+                </a2>
+                <a3>
+                    <name>Sys. BT</name>
+                    <method>101</method>
+                </a3>
+            </methods>
+        </a2>
+        <a3>
+            <device>N71M Series</device>
+            <data>3</data>
+            <supported>0</supported>
+            <methods type="array">
+                <size>4</size>
+                <a1>
+                    <name>Port</name>
+                    <method>0</method>
+                </a1>
+                <a2>
+                    <name>CHC BT</name>
+                    <method>1</method>
+                </a2>
+                <a3>
+                    <name>Sys. BT</name>
+                    <method>101</method>
+                </a3>
+                <a4>
+                    <name>Server</name>
+                    <method>102</method>
+                </a4>
+            </methods>
+        </a3>
+        <a4>
+            <device>GNSS RTK</device>
+            <data>0</data>
+            <supported>1</supported>
+            <methods type="array">
+                <size>3</size>
+                <a1>
+                    <name>Port</name>
+                    <method>0</method>
+                </a1>
+                <a2>
+                    <name>CHC BT</name>
+                    <method>1</method>
+                </a2>
+                <a3>
+                    <name>Sys. BT</name>
+                    <method>101</method>
+                </a3>
+            </methods>
+        </a4>
+        <a5>
+            <device>X91+/X900+</device>
+            <data>4</data>
+            <supported>0</supported>
+            <methods type="array">
+                <size>3</size>
+                <a1>
+                    <name>Port</name>
+                    <method>0</method>
+                </a1>
+                <a2>
+                    <name>CHC BT</name>
+                    <method>1</method>
+                </a2>
+                <a3>
+                    <name>Sys. BT</name>
+                    <method>101</method>
+                </a3>
+            </methods>
+        </a5>
+        <a6>
+            <device>Hydro RTK</device>
+            <data>5</data>
+            <supported>0</supported>
+            <methods type="array">
+                <size>3</size>
+                <a1>
+                    <name>Port</name>
+                    <method>0</method>
+                </a1>
+                <a2>
+                    <name>CHC BT</name>
+                    <method>1</method>
+                </a2>
+                <a3>
+                    <name>Sys. BT</name>
+                    <method>101</method>
+                </a3>
+            </methods>
+        </a6>
+    </devices>
+    <I80 type="group">
+        <channels type="array">
+            <size>2</size>
+            <a1>
+                <channel>192.168.1.1</channel>
+            </a1>
+            <a2>
+                <channel>192.168.200.1</channel>
+            </a2>
+        </channels>
+    </I80>
+</connectmethods>

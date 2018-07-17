@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<validcheck>
+    <lengthcheck type="group">
+        <server type="group">
+            <name>64</name>
+            <address>31</address>
+            <baseid>26</baseid>
+        </server>
+        <apn type="group">
+            <accesspoint>31</accesspoint>
+            <user>32</user>
+            <password>16</password>
+            <dialnumber>14</dialnumber>
+            <total>48</total>
+        </apn>
+        <cors type="group">
+            <user>31</user>
+            <password>31</password>
+            <source>31</source>
+            <total>49</total>
+        </cors>
+    </lengthcheck>
+</validcheck>

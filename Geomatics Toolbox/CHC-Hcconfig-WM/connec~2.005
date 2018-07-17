@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<connectionparams>
+    <connection type="group">
+        <type>0</type>
+        <port>6</port>
+        <baud>9600</baud>
+        <automethod>0</automethod>
+        <antenna>X91</antenna>
+        <address>0</address>
+        <manufacture>CHC</manufacture>
+        <needauto>1</needauto>
+        <devicetype>GNSS RTK</devicetype>
+        <device>000029</device>
+        <serverport>0</serverport>
+        <channel>0</channel>
+        <staticstation></staticstation>
+        <ip></ip>
+    </connection>
+</connectionparams>

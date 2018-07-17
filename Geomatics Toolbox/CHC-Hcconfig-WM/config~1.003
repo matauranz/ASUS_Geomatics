@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<global>
+    <Language type="group">
+        <CurrentType>-1</CurrentType>
+        <Array type="array">
+            <a1>
+                <Type>1</Type>
+                <Name>Chinese</Name>
+                <File>zh_CN</File>
+            </a1>
+            <a2>
+                <Type>2</Type>
+                <Name>Turkish</Name>
+                <File>tr</File>
+            </a2>
+            <a3>
+                <Type>3</Type>
+                <Name>French</Name>
+                <File>fr</File>
+            </a3>
+            <size>3</size>
+        </Array>
+    </Language>
+</global>

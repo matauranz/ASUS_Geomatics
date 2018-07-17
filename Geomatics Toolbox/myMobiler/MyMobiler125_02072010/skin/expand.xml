@@ -1,0 +1,42 @@
+<form	position="0 0 240 320"
+		backgroundimage="face_expand.bmp"
+		clipcolor="FF00FF"
+		hoverimage="select_expand.bmp"
+		selectimage="select_expand.bmp">  
+
+	<button id="101" text="Menu" command="Menu" position="185 4 15 15"></button>
+	<button id="102" text="Show Menubar" command="ShowMenu" position="200 4 15 15"></button>
+	<button id="103" text="Maximize" command="Maximize" position="215 4 15 15"></button>
+	<button id="104" text="Close" command="Close" position="230 4 15 15"></button>
+	<button id="105" text="Hide Toolbar" command="LoadSkin:DefaultSkin.xml" position="20 340 200 10"></button>
+
+	<button	id="106" runat="desktop" action="run"
+			command="mexplorer" text="Mobile Explorer"
+			position="245 4 15 15" ></button>
+
+	<control id="200" text="MobileView" position="5 20 240 320" zoom="100"> </control>
+
+	<button	id="201" runat="mobile" action="run" 
+			command="notes" text="Notes" 
+			position="19 357 32 32" ></button>
+
+	<button	id="202" runat="mobile" action="run"
+			command="contacts" text="Contacts" 
+			position="55 357 32 32" ></button>
+
+	<button	id="203" runat="mobile"
+			command="talk" text="Talk" 
+			position="91 357 32 32" ></button>
+
+	<button	id="204" runat="mobile"
+			command="end" text="Call End / Home" 
+			position="127 357 32  32" ></button>
+
+	<button	id="205" runat="mobile" action="run" 
+			command="Messaging" text="Messaging" 
+			position="163 357 32 32" ></button>
+
+	<button	id="206" runat="mobile" action="run" 
+			command="Calendar" text="Calendar" 
+			position="199 357 32 32" ></button>
+</form>

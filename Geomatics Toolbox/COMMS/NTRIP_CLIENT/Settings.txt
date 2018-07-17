@@ -1,0 +1,19 @@
+# This is the Lefebure GPS Data Path Pointer file. You need to use the format "Key=Value" for all settings.
+# Any line that starts with a # symbol will be ignored.
+# The only setting in this file should be the Data Path Location.
+
+Last Checked for Updates=26/06/2018 5:18:00 AM
+Serial Port Number=3
+Receiver Type=NovAtel
+Serial Port Speed=9600
+Serial Port Data Bits=8
+Serial Port Stop Bits=1
+NTRIP Should be Connected=No
+NTRIP Use Manual GGA=No
+Serial Should be Connected=No
+Display Center=age
+Display Right=speed-mph-smoothed
+Audio Alert File=None
+Protocol=NTRIP
+Receiver Correction Format=RTCMV3
+Receiver Message Rate=10

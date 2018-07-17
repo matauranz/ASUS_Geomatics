@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<radioconfig>
+    <radios type="array">
+        <size>5</size>
+        <a1>
+            <ID>3</ID>
+            <name>Huace Radio(RXTX)</name>
+            <minfreq>450</minfreq>
+            <maxfreq>470</maxfreq>
+            <power type="array">
+                <size>4</size>
+                <a1>
+                    <value>1</value>
+                </a1>
+                <a2>
+                    <value>5</value>
+                </a2>
+                <a3>
+                    <value>10</value>
+                </a3>
+                <a4>
+                    <value>20</value>
+                </a4>
+            </power>
+            <protocol type="array">
+                <size>3</size>
+                <a1>
+                    <ID>1</ID>
+                    <name>HUACE</name>
+                </a1>
+                <a2>
+                    <ID>2</ID>
+                    <name>Transparent</name>
+                </a2>
+                <a3>
+                    <ID>3</ID>
+                    <name>TT450S</name>
+                </a3>
+            </protocol>
+            <stepper type="array">
+                <size>1</size>
+                <a1>
+                    <value>125</value>
+                </a1>
+            </stepper>
+            <baudrate type="group">
+                <!--有些电台（如Satel）空中波特率支持与协议和步进值有关-->
+                <applyall>1</applyall>
+                <universal type="array">
+                    <size>1</size>
+                    <a1>
+                        <value>9600</value>
+                    </a1>
+                </universal>
+            </baudrate>
+        </a1>
+        <a2>
+            <ID>4</ID>
+            <name>LFS</name>
+            <minfreq>455</minfreq>
+            <maxfreq>463</maxfreq>
+            <power type="array">
+                <size>4</size>
+                <a1>
+                    <value>1</value>
+                </a1>
+                <a2>
+                    <value>5</value>
+                </a2>
+                <a3>
+                    <value>10</value>
+                </a3>
+                <a4>
+                    <value>20</value>
+                </a4>
+            </power>
+            <protocol type="array">
+                <size>1</size>
+                <a1>
+                    <ID>1</ID>
+                    <name>HUACE</name>
+                </a1>
+            </protocol>
+            <stepper type="array">
+                <size>1</size>
+                <a1>
+                    <value>250</value>
+                </a1>
+            </stepper>
+            <baudrate type="group">
+                <applyall>1</applyall>
+                <universal type="array">
+                    <size>1</size>
+                    <a1>
+                        <value>9600</value>
+                    </a1>
+                </universal>
+            </baudrate>
+            <sensitivity type="group" />
+            <FEC type="group" />
+            <COS type="group" />
+            <scramble type="group" />
+        </a2>
+        <a3>
+            <ID>5</ID>
+            <name>Satel(RXTX)</name>
+            <minfreq>403</minfreq>
+            <maxfreq>473</maxfreq>
+            <power type="array">
+                <size>4</size>
+                <a1>
+                    <value>1</value>
+                </a1>
+                <a2>
+                    <value>2</value>
+                </a2>
+                <a3>
+                    <value>5</value>
+                </a3>
+                <a4>
+                    <value>10</value>
+                </a4>
+            </power>
+            <protocol type="array">
+                <size>4</size>
+                <a1>
+                    <ID>2</ID>
+                    <name>Transparent</name>
+                </a1>
+                <a2>
+                    <ID>3</ID>
+                    <name>TT450S</name>
+                </a2>
+                <a3>
+                    <ID>4</ID>
+                    <name>Satel-3AS</name>
+                </a3>
+                <a4>
+                    <ID>5</ID>
+                    <name>Pacific Crest 4-FSK(PCC-4FSK)</name>
+                </a4>
+            </protocol>
+            <stepper type="array">
+                <size>2</size>
+                <a1>
+                    <value>125</value>
+                </a1>
+                <a2>
+                    <value>250</value>
+                </a2>
+            </stepper>
+            <baudrate type="group">
+                <!--有些电台（如Satel）空中波特率支持与协议和步进值有关-->
+                <applyall>0</applyall>
+                <universal type="array">
+                    <size>3</size>
+                    <a1>
+                        <value>4800</value>
+                    </a1>
+                    <a2>
+                        <value>9600</value>
+                    </a2>
+                    <a3>
+                        <value>19200</value>
+                    </a3>
+                </universal>
+                <particular type="array">
+                    <size>8</size>
+                    <a1>
+                        <protocol>2</protocol>
+                        <stepper>125</stepper>
+                        <bauds type="array">
+                            <size>1</size>
+                            <a1>
+                                <value>4800</value>
+                            </a1>
+                        </bauds>
+                    </a1>
+                    <a2>
+                        <protocol>2</protocol>
+                        <stepper>250</stepper>
+                        <bauds type="array">
+                            <size>1</size>
+                            <a1>
+                                <value>9600</value>
+                            </a1>
+                        </bauds>
+                    </a2>
+                    <a3>
+                        <protocol>3</protocol>
+                        <stepper>125</stepper>
+                        <bauds type="array">
+                            <size>1</size>
+                            <a1>
+                                <value>4800</value>
+                            </a1>
+                        </bauds>
+                    </a3>
+                    <a4>
+                        <protocol>3</protocol>
+                        <stepper>250</stepper>
+                        <bauds type="array">
+                            <size>1</size>
+                            <a1>
+                                <value>9600</value>
+                            </a1>
+                        </bauds>
+                    </a4>
+                    <a5>
+                        <protocol>4</protocol>
+                        <stepper>125</stepper>
+                        <bauds type="array">
+                            <size>1</size>
+                            <a1>
+                                <value>9600</value>
+                            </a1>
+                        </bauds>
+                    </a5>
+                    <a6>
+                        <protocol>4</protocol>
+                        <stepper>250</stepper>
+                        <bauds type="array">
+                            <size>1</size>
+                            <a1>
+                                <value>19200</value>
+                            </a1>
+                        </bauds>
+                    </a6>
+                    <a7>
+                        <protocol>5</protocol>
+                        <stepper>125</stepper>
+                        <bauds type="array">
+                            <size>1</size>
+                            <a1>
+                                <value>9600</value>
+                            </a1>
+                        </bauds>
+                    </a7>
+                    <a8>
+                        <protocol>5</protocol>
+                        <stepper>250</stepper>
+                        <bauds type="array">
+                            <size>1</size>
+                            <a1>
+                                <value>19200</value>
+                            </a1>
+                        </bauds>
+                    </a8>
+                </particular>
+            </baudrate>
+            <sensitivity type="group">
+                <!--0 not support, 1 readonly support, 2 read-write suppoert-->
+                <supported>2</supported>
+                <value>0</value>
+            </sensitivity>
+            <FEC type="group">
+                <supported>2</supported>
+                <on>0</on>
+            </FEC>
+            <COS type="group">
+                <supported>2</supported>
+                <on>0</on>
+                <timeinterval>10</timeinterval>
+                <stringID>abc</stringID>
+            </COS>
+            <scramble>
+                <supported>0</supported>
+                <on>0</on>
+            </scramble>
+            <scramble type="group" />
+        </a3>
+        <a4>
+            <ID>6</ID>
+            <name>LFS LOW FREQ</name>
+            <minfreq>412</minfreq>
+            <maxfreq>422</maxfreq>
+            <power type="array">
+                <size>4</size>
+                <a1>
+                    <value>1</value>
+                </a1>
+                <a2>
+                    <value>5</value>
+                </a2>
+                <a3>
+                    <value>10</value>
+                </a3>
+                <a4>
+                    <value>20</value>
+                </a4>
+            </power>
+            <protocol type="array">
+                <size>1</size>
+                <a1>
+                    <ID>1</ID>
+                    <name>HUACE</name>
+                </a1>
+            </protocol>
+            <stepper type="array">
+                <size>1</size>
+                <a1>
+                    <value>250</value>
+                </a1>
+            </stepper>
+            <baudrate type="group">
+                <applyall>1</applyall>
+                <universal type="array">
+                    <size>1</size>
+                    <a1>
+                        <value>9600</value>
+                    </a1>
+                </universal>
+            </baudrate>
+            <sensitivity type="group" />
+            <FEC type="group" />
+            <COS type="group" />
+            <scramble type="group" />
+        </a4>
+		<a5>
+            <ID>7</ID>
+            <name>HUAXIN FULL FREQ</name>
+            <minfreq>410</minfreq>
+            <maxfreq>470</maxfreq>
+            <power type="array">
+                <size>3</size>
+                <a1>
+                    <value>5</value>
+                </a1>
+                <a2>
+                    <value>10</value>
+                </a2>
+                <a3>
+                    <value>20</value>
+                </a3>
+            </power>
+            <protocol type="array">
+				<size>3</size>
+                <a1>
+                    <ID>1</ID>
+                    <name>HUACE</name>
+                </a1>
+                <a2>
+                    <ID>2</ID>
+                    <name>Transparent</name>
+                </a2>
+                <a3>
+                    <ID>3</ID>
+                    <name>TT450S</name>
+                </a3>
+            </protocol>
+            <stepper type="array">
+                <size>1</size>
+                <a1>
+                    <value>250</value>
+                </a1>
+            </stepper>
+            <baudrate type="group">
+				<applyall>0</applyall>
+                <universal type="array">
+                    <size>2</size>
+                    <a1>
+                        <value>9600</value>
+                    </a1>
+                    <a2>
+                        <value>19200</value>
+                    </a2>
+                </universal>
+                <particular type="array">
+                    <size>2</size>
+                    <a1>
+                        <protocol>2</protocol>
+                        <stepper>250</stepper>
+                        <bauds type="array">
+                            <size>1</size>
+                            <a1>
+                                <value>9600</value>
+                            </a1>
+                        </bauds>
+                    </a1>
+                    <a2>
+                        <protocol>3</protocol>
+                        <stepper>250</stepper>
+                        <bauds type="array">
+                            <size>1</size>
+                            <a1>
+                                <value>9600</value>
+                            </a1>
+                        </bauds>
+                    </a2>
+                </particular>
+            </baudrate>
+            <sensitivity type="group" />
+            <FEC type="group" />
+            <COS type="group" />
+            <scramble type="group" />
+        </a5>
+    </radios>
+</radioconfig>

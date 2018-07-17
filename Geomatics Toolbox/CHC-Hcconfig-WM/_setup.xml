@@ -1,0 +1,198 @@
+<wap-provisioningdoc>
+<characteristic type="Install">
+<parm name="InstallPhase" value="install"/>
+<parm name="AppName" value="HuaceNav Hcconfig"/>
+<parm name="InstallDir" value="%CE1%\Hcconfig" translation="install"/>
+<parm name="NumDirs" value="4"/>
+<parm name="NumFiles" value="26"/>
+<parm name="NumRegKeys" value="2"/>
+<parm name="NumRegVals" value="5"/>
+<parm name="NumShortcuts" value="1"/>
+</characteristic>
+<characteristic type="FileOperation">
+<characteristic type="%InstallDir%\configs" translation="install">
+<characteristic type="MakeDir"/>
+<characteristic type="connectbauds.hcc" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="connec~1.004"/>
+<parm name="NoDateCheck"/>
+</characteristic>
+</characteristic>
+<characteristic type="config.hcc" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="config~1.003"/>
+<parm name="NoDateCheck"/>
+</characteristic>
+</characteristic>
+<characteristic type="radioconfig.hcc" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="radioc~2.009"/>
+<parm name="NoDateCheck"/>
+</characteristic>
+</characteristic>
+<characteristic type="antennatype.hcc" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="antenn~1.001"/>
+<parm name="NoDateCheck"/>
+</characteristic>
+</characteristic>
+<characteristic type="connectionparams.hcc" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="connec~2.005"/>
+<parm name="NoDateCheck"/>
+</characteristic>
+</characteristic>
+<characteristic type="connectmethods.hcc" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="connec~3.006"/>
+<parm name="NoDateCheck"/>
+</characteristic>
+</characteristic>
+<characteristic type="authority.hcc" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="author~1.002"/>
+<parm name="NoDateCheck"/>
+</characteristic>
+</characteristic>
+<characteristic type="radiochannels.hcc" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="radioc~1.008"/>
+<parm name="NoDateCheck"/>
+</characteristic>
+</characteristic>
+<characteristic type="netserver.hcc" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="netser~1.007"/>
+<parm name="NoDateCheck"/>
+</characteristic>
+</characteristic>
+<characteristic type="rtksettings.hcc" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="rtkset~1.010"/>
+<parm name="NoDateCheck"/>
+</characteristic>
+</characteristic>
+<characteristic type="satelbaudrate.hcc" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="satelb~1.011"/>
+<parm name="NoDateCheck"/>
+</characteristic>
+</characteristic>
+<characteristic type="staticstations.hcc" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="static~1.012"/>
+<parm name="NoDateCheck"/>
+</characteristic>
+</characteristic>
+<characteristic type="validcheck.hcc" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="validc~1.013"/>
+<parm name="NoDateCheck"/>
+</characteristic>
+</characteristic>
+</characteristic>
+<characteristic type="%InstallDir%" translation="install">
+<characteristic type="MakeDir"/>
+<characteristic type="LSComm.dll" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="LSComm~1.016"/>
+<parm name="NoDateCheck"/>
+</characteristic>
+</characteristic>
+<characteristic type="QtNetwork4.dll" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="QtNetw~1.024"/>
+<parm name="NoDateCheck"/>
+</characteristic>
+</characteristic>
+<characteristic type="LSParse.dll" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="LSPars~1.018"/>
+<parm name="NoDateCheck"/>
+</characteristic>
+</characteristic>
+<characteristic type="LSDevice.dll" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="LSDevi~1.017"/>
+<parm name="NoDateCheck"/>
+</characteristic>
+</characteristic>
+<characteristic type="Hcconfig.exe" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="Hcconf~1.014"/>
+<parm name="NoDateCheck"/>
+</characteristic>
+</characteristic>
+<characteristic type="msvcr90.dll" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="msvcr9~1.021"/>
+<parm name="NoDateCheck"/>
+</characteristic>
+</characteristic>
+<characteristic type="Microsoft.VC90.CRT.manifest" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="Micros~1.019"/>
+<parm name="NoDateCheck"/>
+</characteristic>
+</characteristic>
+<characteristic type="msvcp90.dll" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="msvcp9~1.020"/>
+<parm name="NoDateCheck"/>
+</characteristic>
+</characteristic>
+<characteristic type="QtGui4.dll" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="QtGui4~1.023"/>
+<parm name="NoDateCheck"/>
+</characteristic>
+</characteristic>
+<characteristic type="HcconfigToday.dll" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="Hcconf~2.015"/>
+<parm name="NoDateCheck"/>
+</characteristic>
+</characteristic>
+<characteristic type="QtCore4.dll" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="QtCore~1.022"/>
+<parm name="NoDateCheck"/>
+</characteristic>
+</characteristic>
+</characteristic>
+<characteristic type="%CE17%" translation="install">
+<characteristic type="MakeDir"/>
+<characteristic type="Hcconfig.lnk" translation="install">
+<characteristic type="Shortcut">
+<parm name="Source" value="%InstallDir%\Hcconfig.exe" translation="install"/>
+</characteristic>
+</characteristic>
+</characteristic>
+<characteristic type="%InstallDir%\translates" translation="install">
+<characteristic type="MakeDir"/>
+<characteristic type="qt_zh_CN.qm" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="qt_zh_~1.026"/>
+<parm name="NoDateCheck"/>
+</characteristic>
+</characteristic>
+<characteristic type="hcconfig_zh_CN.qm" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="hcconf~1.025"/>
+<parm name="NoDateCheck"/>
+</characteristic>
+</characteristic>
+</characteristic>
+</characteristic>
+<characteristic type="Registry">
+<characteristic type="HKLM\Software\CHC Nav\Today\Hcconfig">
+<parm name="Path" value="%InstallDir%\Hcconfig.exe" datatype="string" translation="install"/>
+</characteristic>
+<characteristic type="HKLM\Software\Microsoft\Today\Items\Hcconfig">
+<parm name="DLL" value="%InstallDir%\HcconfigToday.dll" datatype="string" translation="install"/>
+<parm name="Enabled" value="1" datatype="integer"/>
+<parm name="Options" value="0" datatype="integer"/>
+<parm name="Type" value="4" datatype="integer"/>
+</characteristic>
+</characteristic>
+</wap-provisioningdoc>

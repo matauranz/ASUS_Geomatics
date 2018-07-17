@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<baudrate>
+    <steparray type="array">
+        <size>3</size>
+        <a1>
+            <step>0</step>
+            <protocolarray type="array">
+                <size>4</size>
+                <a1>
+                    <protocol>5</protocol>
+                    <baud>1</baud>
+                </a1>
+                <a2>
+                    <protocol>6</protocol>
+                    <baud>1</baud>
+                </a2>
+                <a3>
+                    <protocol>8</protocol>
+                    <baud>0</baud>
+                </a3>
+                <a4>
+                    <protocol>9</protocol>
+                    <baud>0</baud>
+                </a4>
+            </protocolarray>
+        </a1>
+        <a2>
+            <step>1</step>
+            <protocolarray type="array">
+                <size>4</size>
+                <a1>
+                    <protocol>5</protocol>
+                    <baud>1</baud>
+                </a1>
+                <a2>
+                    <protocol>6</protocol>
+                    <baud>1</baud>
+                </a2>
+                <a3>
+                    <protocol>8</protocol>
+                    <baud>0</baud>
+                </a3>
+                <a4>
+                    <protocol>9</protocol>
+                    <baud>0</baud>
+                </a4>
+            </protocolarray>
+        </a2>
+        <a3>
+            <step>2</step>
+            <protocolarray type="array">
+                <size>4</size>
+                <a1>
+                    <protocol>5</protocol>
+                    <baud>0</baud>
+                </a1>
+                <a2>
+                    <protocol>6</protocol>
+                    <baud>0</baud>
+                </a2>
+                <a3>
+                    <protocol>8</protocol>
+                    <baud>2</baud>
+                </a3>
+                <a4>
+                    <protocol>9</protocol>
+                    <baud>2</baud>
+                </a4>
+            </protocolarray>
+        </a3>
+    </steparray>
+</baudrate>
