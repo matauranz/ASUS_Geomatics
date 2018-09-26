@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+PRODID:-//Cyberglue MemberConnex//iCal4j 1.0//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTAMP:20180920T042827Z
+DTSTART:20181026T090000
+SUMMARY:S+SNZ Positioning and Engineering Surveying Seminar
+DTEND:20181026T171000
+LOCATION:Ray Emery Drive\, Novotel Auckland Airport\, Auckland\, Auckland
+ \, New Zealand
+TRANSP:OPAQUE
+SEQUENCE:0
+DESCRIPTION:    This annual event is a joint initiative from Positioning 
+ and Measurement stream & Engineering Surveying stream\, providing an opp
+ ortunity for technical development and networking. Don't miss it. 
+URL:/news_and_events/tickets_and_events/pames18
+UID:1-449
+END:VEVENT
+END:VCALENDAR
